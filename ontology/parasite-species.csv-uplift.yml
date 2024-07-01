@@ -1,0 +1,34 @@
+transform:
+  - .data
+  # Remove empty values
+  - 'walk(if type == "object" then with_entries(if (.value | test("^\\s*-?\\s*$")) then .value = null else . end) else . end)'
+  # Create ConceptScheme
+  - |
+    {
+      "@id": "https://w3id.org/climos/sandfly-species",
+      "skos:prefLabel": "CLIMOS Parasite Species",
+      "@type": "skos:ConceptScheme",
+      concepts: map(."@type" = "skos:Concept")
+    }
+
+context:
+  $:
+    '@base': https://w3id.org/climos/sandfly-species/
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    owl: http://www.w3.org/2002/07/owl#
+    skos: http://www.w3.org/2004/02/skos/core#
+    geosp: http://rdf.geospecies.org/ont/geospecies#
+    Identifier: '@id'
+    Label: skos:prefLabel
+    Genus: geosp:hasGenusName
+    DBpedia:
+      '@id': owl:sameAs
+      '@type': '@id'
+    VEuPathDB:
+      '@id': owl:sameAs
+      '@type': '@id'
+    AdditionalLinks:
+      '@id': owl:sameAs
+      '@type': '@id'
+    concepts:
+      '@reverse': skos:inScheme
