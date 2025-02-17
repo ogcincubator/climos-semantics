@@ -7,6 +7,4 @@ This repository contains configuration and processes to support the use of seman
 
 The `ontology` directory contains the files for the CLIMOS Ontology. Data can be edited by using Google Spreadsheets.
 
-## Catalog
-
-The `catalog` directory hosts linked data mappings for the CLIMOS data catalog.
+See the [README](ontology/README.md) for more information.
