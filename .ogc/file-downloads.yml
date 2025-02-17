@@ -1,11 +1,3 @@
-- url: 'https://docs.google.com/spreadsheets/d/1TVoj5XaZXaJJcT72INzI15fb-gUSZ3NiQoLr72yAmZ0/export?gid=1993212892&format=csv'
-  dest: ontology/sandfly-species.csv
-  object-diff: false
-
-- url: 'https://docs.google.com/spreadsheets/d/1TVoj5XaZXaJJcT72INzI15fb-gUSZ3NiQoLr72yAmZ0/export?gid=1324178511&format=csv'
-  dest: ontology/parasite-species.csv
-  object-diff: false
-
-- url: 'https://docs.google.com/spreadsheets/d/1TVoj5XaZXaJJcT72INzI15fb-gUSZ3NiQoLr72yAmZ0/export?gid=0&format=csv'
-  dest: ontology/observable-properties.csv
+- url: 'https://myogc1-my.sharepoint.com/:x:/g/personal/avillar_ogc_org/Ee4D7-XcVddNoKwi7F1tuuYBkZfUUe3EnJYupFqOZvGKFw?download=1'
+  dest: ontology/source.xlsx
   object-diff: false

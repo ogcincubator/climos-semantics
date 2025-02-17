@@ -17,13 +17,9 @@ jobs:
         run: |
           pip install ogc-na
           python -m ogc.na.download --spec .ogc/file-downloads.yaml
-          for FILE in ontology/*.csv ; do
-            python -m ogc.na.ingest_json --skip-on-missing-context --json-ld --context .ogc/csv2json.yml \
-            --json-ld-file "${FILE}.json" "${FILE}" 
-          done
-          
-          for FILE in ontology/*.csv.json ; do
-            python -m ogc.na.ingest_json --skip-on-missing-context --ttl --ttl-file "${FILE%.csv.json}.ttl" "${FILE}"
+          for FILE in ontology/*-uplift.yml ; do
+            python -m ogc.na.ingest_json --skip-on-missing-context --context "${FILE}" \
+              --ttl --ttl-file "${FILE%-uplift.yml}.ttl" "ontology/source.xlsx" 
           done
       - name: Commit new versions of files
         uses: EndBug/add-and-commit@v9
