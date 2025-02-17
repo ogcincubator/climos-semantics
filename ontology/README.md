@@ -2,7 +2,7 @@
 
 The CLIMOS Ontology is created from different sources that are assembled here:
 
-## CLIMOS Ontology terms Google Spreadsheet
+## CLIMOS Ontology terms Spreadsheet
 
 The spreadsheet can be found
 [here](https://myogc1-my.sharepoint.com/:x:/g/personal/avillar_ogc_org/Ee4D7-XcVddNoKwi7F1tuuYBuxDX_u7ZaQI5QLjzqmxTgQ?e=4rp8xX).
