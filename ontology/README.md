@@ -33,3 +33,6 @@ Please, follow these rules when editing the spreadsheet:
     * [Systematized Nomenclature of Medicine, Intl.](http://purl.bioontology.org/ontology/SNMI/L-50481)
     * [SNOMED CT](https://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&conceptid=16043006)
     * [GBIF](https://www.gbif.org/species/3235457)
+
+For any climate/weather variables, the [Climate and Forecast Standard Names](http://vocab.nerc.ac.uk/standard_name/)
+is a great source of terms.
