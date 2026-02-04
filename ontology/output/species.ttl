@@ -509,38 +509,10 @@ phleboviruses:zerdali_virus a owl:Class,
     skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
     climos-props:usedInCLIMOS false .
 
-sandflies:P_acusieli a owl:Class,
+sandflies:p_acusieli a owl:Class,
         skos:Concept ;
     skos:inScheme <https://w3id.org/climos/species/sandflies> ;
     skos:prefLabel "Phlebotomus jacusieli" ;
-    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
-    climos-props:usedInCLIMOS true .
-
-sandflies:P_canaaniticus a owl:Class,
-        skos:Concept ;
-    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
-    skos:prefLabel "Phlebotomus canaaniticus" ;
-    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
-    climos-props:usedInCLIMOS true .
-
-sandflies:P_perfiliewi_galilaeus a owl:Class,
-        skos:Concept ;
-    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
-    skos:prefLabel "Phlebotomus perfiliewi galilaeus" ;
-    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
-    climos-props:usedInCLIMOS true .
-
-sandflies:P_saevus a owl:Class,
-        skos:Concept ;
-    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
-    skos:prefLabel "Phlebotomus saevus" ;
-    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
-    climos-props:usedInCLIMOS true .
-
-sandflies:P_saltiae a owl:Class,
-        skos:Concept ;
-    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
-    skos:prefLabel "Phlebotomus saltiae" ;
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS true .
 
@@ -595,6 +567,13 @@ sandflies:p_brevis a owl:Class,
     skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_brevis> ;
     skos:inScheme <https://w3id.org/climos/species/sandflies> ;
     skos:prefLabel "Phlebotomus brevis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_canaaniticus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus canaaniticus" ;
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS true .
 
@@ -726,6 +705,13 @@ sandflies:p_perfiliewi a owl:Class,
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS true .
 
+sandflies:p_perfiliewi_galilaeus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus perfiliewi galilaeus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
 sandflies:p_perniciosus a owl:Class,
         skos:Concept ;
     skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_perniciosus> ;
@@ -741,6 +727,20 @@ sandflies:p_riouxi a owl:Class,
     skos:prefLabel "Phlebotomus riouxi" ;
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS false .
+
+sandflies:p_saevus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus saevus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_saltiae a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus saltiae" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
 
 sandflies:p_sergenti a owl:Class,
         skos:Concept ;
@@ -827,11 +827,7 @@ sandflies:s_minuta a owl:Class,
     skos:prefLabel "Phlebovirus species" .
 
 <https://w3id.org/climos/species/sandflies> a skos:ConceptScheme ;
-    skos:hasTopConcept sandflies:P_acusieli,
-        sandflies:P_canaaniticus,
-        sandflies:P_perfiliewi_galilaeus,
-        sandflies:P_saevus,
-        sandflies:P_saltiae,
+    skos:hasTopConcept sandflies:p_acusieli,
         sandflies:p_alexandri,
         sandflies:p_anatolicus,
         sandflies:p_arabicus,
@@ -839,6 +835,7 @@ sandflies:s_minuta a owl:Class,
         sandflies:p_ariasi,
         sandflies:p_balcanicus,
         sandflies:p_brevis,
+        sandflies:p_canaaniticus,
         sandflies:p_chabaudi,
         sandflies:p_creticus,
         sandflies:p_economidesi,
@@ -856,8 +853,11 @@ sandflies:s_minuta a owl:Class,
         sandflies:p_orientalis,
         sandflies:p_papatasi,
         sandflies:p_perfiliewi,
+        sandflies:p_perfiliewi_galilaeus,
         sandflies:p_perniciosus,
         sandflies:p_riouxi,
+        sandflies:p_saevus,
+        sandflies:p_saltiae,
         sandflies:p_sergenti,
         sandflies:p_simici,
         sandflies:p_similis,
