@@ -60,6 +60,7 @@ for cs_def in CONCEPT_SCHEMES:
             raise ValueError(f"Invalid URI identifier at {cs_def['ws']} row {i}")
         if '/' in res_uri or '(' in res_uri:
             res_uri = re.sub(' ', '_', re.sub(r'\s*[(/].*', '', res_uri.lower()))
+        res_uri = res_uri.lower()
         res = namespace[res_uri]
         g.add((res, RDF.type, SKOS.Concept))
         g.add((res, RDF.type, OWL.Class))
