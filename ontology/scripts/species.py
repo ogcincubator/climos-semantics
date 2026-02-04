@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 from openpyxl import load_workbook
-from rdflib import Namespace, URIRef, Graph, RDF, SKOS, OWL, Literal, RDFS
+from rdflib import Namespace, URIRef, Graph, RDF, SKOS, OWL, Literal, RDFS, BNode
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -33,6 +33,7 @@ wb = load_workbook(filename=sys.argv[1], read_only=True, data_only=True)
 g = Graph()
 g.bind('climos', CLIMOS)
 g.bind('climos-props', CLIMOS_PROPS)
+g.add((BNode(), URIRef('http://www.opengis.net/ogc-na#targetGraph'), CLIMOS['species']))
 for cs_def in CONCEPT_SCHEMES:
     ws = wb[cs_def['ws']]
     namespace = Namespace(f"https://w3id.org/climos/species/{cs_def['id']}/")
