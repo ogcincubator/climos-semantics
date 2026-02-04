@@ -22,5 +22,5 @@ jobs:
           DB_USERNAME: ${{ secrets.UPLOAD_GRAPH_STORE_USERNAME }}
           DB_PASSWORD: ${{ secrets.UPLOAD_GRAPH_STORE_PASSWORD }}
         run: |
-          python -m ogc.na.update_vocabs .ogc/catalog.ttl --batch  -w .
-          # --update --graph-store https://defs-hosted.opengis.net/fuseki-hosted/data
+          python -m ogc.na.update_vocabs .ogc/catalog.ttl --batch  -w . \
+           --update --graph-store https://defs-hosted.opengis.net/fuseki-hosted/data
