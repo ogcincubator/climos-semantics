@@ -1,0 +1,23 @@
+@prefix Trap_intake_position: <https://w3id.org/climos/vocabs/Trap_intake_position/> .
+@prefix climos-vocabs: <https://w3id.org/climos/vocabs/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+Trap_intake_position:trap_downdraft_position a skos:Concept,
+        climos-vocabs:Trap_intake_position ;
+    skos:definition "Positioned with the intake facing downward, collecting sand flies as they fly or settle below the trap." ;
+    skos:prefLabel "Downdraft trap position" ;
+    skos:topConceptOf climos-vocabs:Trap_intake_position .
+
+Trap_intake_position:trap_updraft_position a skos:Concept,
+        climos-vocabs:Trap_intake_position ;
+    skos:definition "Placed with the intake facing upward, capturing sand flies as they are drawn into the airflow rising from the ground." ;
+    skos:prefLabel "Updraft trap position" ;
+    skos:topConceptOf climos-vocabs:Trap_intake_position .
+
+climos-vocabs:Trap_intake_position a owl:Class,
+        skos:ConceptScheme ;
+    skos:hasTopConcept Trap_intake_position:trap_downdraft_position,
+        Trap_intake_position:trap_updraft_position ;
+    skos:prefLabel "Trap intake position" .
+

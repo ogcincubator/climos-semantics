@@ -1,0 +1,921 @@
+@prefix climos-props: <https://w3id.org/climos/properties/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix parasites: <https://w3id.org/climos/species/parasites/> .
+@prefix phleboviruses: <https://w3id.org/climos/species/phleboviruses/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sandflies: <https://w3id.org/climos/species/sandflies/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+parasites:l_adleri a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_adleri> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania adleri" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_aethiopica a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_aethiopica> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania aethiopica" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_agamae a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_agamae> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania agamae" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_amazonensis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_amazonensis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania amazonensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_arabica a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_arabica> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania arabica" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_archibaldi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_archibaldi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania archibaldi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_aristedesi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_aristedesi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania aristedesi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_aristidesi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_aristidesi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania aristidesi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_braziliensis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_braziliensis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania braziliensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_ceramodactyli a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_ceramodactyli> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania ceramodactyli" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_chagasi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_chagasi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania chagasi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_donovani a owl:Class,
+        skos:Concept ;
+    rdfs:seeAlso <http://purl.bioontology.org/ontology/SNOMEDCT/16043006
+http://purl.bioontology.org/ontology/SNMI/L-50481
+http://purl.bioontology.org/ontology/NCBITAXON/5661> ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_donovani>,
+        <https://openbiodiv.net/6ba45dc1-e078-4c7a-b45c-05e05c6ffb41> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania donovani" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS true .
+
+parasites:l_enriettii a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_enriettii> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania enriettii" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_forattinii a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_forattinii> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania forattinii" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_garnhami a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_garnhami> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania garnhami" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_gerbilli a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_gerbilli> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania gerbilli" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_gulikae a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_gulikae> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania gulikae" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_guyanensis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_guyanensis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania guyanensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_gymnodactyli a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_gymnodactyli> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania gymnodactyli" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_helioscopi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_helioscopi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania helioscopi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_hemidactyli a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_hemidactyli> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania hemidactyli" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_hoogstraali a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_hoogstraali> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania hoogstraali" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_infantum a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_infantum> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania infantum" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS true .
+
+parasites:l_killicki a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_killicki> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania killicki" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_lainsoni a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_lainsoni> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania lainsoni" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_lindenbergi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_lindenbergi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania lindenbergi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_macropodum a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_macropodum> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania macropodum" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_major a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_major> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania major" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS true .
+
+parasites:l_martiniquensis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_martiniquensis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania martiniquensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_mexicana a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_mexicana> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania mexicana" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_naiffi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_naiffi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania naiffi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_nicollei a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_nicollei> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania nicollei" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_orientalis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_orientalis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania orientalis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_panamensis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_panamensis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania panamensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_peruviana a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_peruviana> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania peruviana" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_phrynocephali a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_phrynocephali> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania phrynocephali" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_pifanoi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_pifanoi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania pifanoi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_platycephala a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_platycephala> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania platycephala" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_senegalensis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_senegalensis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania senegalensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_shawi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_shawi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania shawi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_sofieffi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_sofieffi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania sofieffi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_tarentolae a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_tarentolae> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania tarentolae" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS true .
+
+parasites:l_tropica a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_tropica> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania tropica" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS true .
+
+parasites:l_turanica a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_turanica> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania turanica" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_utingensis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_utingensis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania utingensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_venezeulensis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_venezeulensis> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania venezeulensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_waltoni a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_waltoni> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania waltoni" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_zmeevi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_zmeevi> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania zmeevi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+parasites:l_zuckermani a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Leishmania_zuckermani> ;
+    skos:inScheme <https://w3id.org/climos/species/parasites> ;
+    skos:prefLabel "Leishmania zuckermani" ;
+    skos:topConceptOf <https://w3id.org/climos/species/parasites> ;
+    climos-props:usedInCLIMOS false .
+
+phleboviruses:adana_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Adana_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus adanaense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS false .
+
+phleboviruses:alcube_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Alcube_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus alcubeense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS false .
+
+phleboviruses:arbia_virus a owl:Class,
+        skos:Concept ;
+    rdfs:seeAlso <https://ictv.global/taxonomy/taxondetails?taxnode_id=202300157&taxon_name=Phlebovirus> ;
+    skos:exactMatch <https://dbpedia.org/page/Salehabad_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus salehabadense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS true .
+
+phleboviruses:corfou_virus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus corfouense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS false .
+
+phleboviruses:massilia_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Massilia_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus massiliaense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS true .
+
+phleboviruses:punique_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Punique_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus puniquense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS true .
+
+phleboviruses:salehabad_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Salehabad_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus salehabadense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS false .
+
+phleboviruses:sandfly_fever_naples_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Naples_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus napoliense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS false .
+
+phleboviruses:sandfly_fever_sicilian_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Sicilian_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus siciliaense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS true .
+
+phleboviruses:tehran_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Tehran_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus tehranense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS false .
+
+phleboviruses:toros_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Toros_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus torosense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS false .
+
+phleboviruses:toscana_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Toscana_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus toscanaense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS true .
+
+phleboviruses:zerdali_virus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <https://dbpedia.org/page/Zerdali_phlebovirus> ;
+    skos:inScheme <https://w3id.org/climos/species/phleboviruses> ;
+    skos:prefLabel "Phlebovirus zerdaliense" ;
+    skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
+    climos-props:usedInCLIMOS false .
+
+<https://w3id.org/climos/species/sandflies/P_acusieli​> a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus jacusieli​" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+<https://w3id.org/climos/species/sandflies/P_canaaniticus​> a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus canaaniticus​" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+<https://w3id.org/climos/species/sandflies/P_perfiliewi_galilaeus​> a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus perfiliewi galilaeus​" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:P_saevus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus saevus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+<https://w3id.org/climos/species/sandflies/P_saltiae​> a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus saltiae​" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_alexandri a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_alexandri> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus alexandri" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_anatolicus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus anatolicus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_arabicus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus arabicus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_argentipes a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_argentipes> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus argentipes" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_ariasi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_ariasi> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus ariasi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_balcanicus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_balcanicus> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus balcanicus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_brevis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_brevis> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus brevis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_chabaudi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_chabaudi> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus chabaudi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_creticus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus creticus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_economidesi a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus economidesi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_halepensis a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus halepensis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_kandelakii a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus kandelakii" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_kazeruni a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus kazeruni" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_killicki a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus killicki" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_kyreniae a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_kyreniae> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus kyreniae" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_langeroni a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_langeroni> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus langeroni" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_longicuspis a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_longicuspis> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus longicuspis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_longiductus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_longiductus> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus longiductus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_major a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_major> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus major" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_mascittii a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_mascittii> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus mascittii" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_neglectus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus neglectus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_orientalis a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus orientalis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_papatasi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_papatasi> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus papatasi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_perfiliewi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_perfiliewi> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus perfiliewi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_perniciosus a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_perniciosus> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus perniciosus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_riouxi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_riouxi> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus riouxi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_sergenti a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_sergenti> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus sergenti" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_simici a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_simici> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus simici" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_similis a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus similis" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_simionahalepae a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus simonahalepae" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:p_syriacus a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus syriacus" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:p_tobbi a owl:Class,
+        skos:Concept ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_tobbi> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Phlebotomus tobbi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:s_azizi a owl:Class,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.ncbi.xyz/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2791161&lvl=3&keep=1&srchmode=1&unlock> ;
+    skos:exactMatch <http://dbpedia.org/resource/Phlebotomus_azizi> ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Sergentomyia azizi" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS false .
+
+sandflies:s_dentata a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Sergentomyia dentata" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+sandflies:s_minuta a owl:Class,
+        skos:Concept ;
+    skos:inScheme <https://w3id.org/climos/species/sandflies> ;
+    skos:prefLabel "Sergentomyia minuta" ;
+    skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
+    climos-props:usedInCLIMOS true .
+
+<https://w3id.org/climos/species/phleboviruses> a skos:ConceptScheme ;
+    skos:hasTopConcept phleboviruses:adana_virus,
+        phleboviruses:alcube_virus,
+        phleboviruses:arbia_virus,
+        phleboviruses:corfou_virus,
+        phleboviruses:massilia_virus,
+        phleboviruses:punique_virus,
+        phleboviruses:salehabad_virus,
+        phleboviruses:sandfly_fever_naples_virus,
+        phleboviruses:sandfly_fever_sicilian_virus,
+        phleboviruses:tehran_virus,
+        phleboviruses:toros_virus,
+        phleboviruses:toscana_virus,
+        phleboviruses:zerdali_virus ;
+    skos:prefLabel "Phlebovirus species" .
+
+<https://w3id.org/climos/species/sandflies> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://w3id.org/climos/species/sandflies/P_acusieli​>,
+        <https://w3id.org/climos/species/sandflies/P_canaaniticus​>,
+        <https://w3id.org/climos/species/sandflies/P_perfiliewi_galilaeus​>,
+        sandflies:P_saevus,
+        <https://w3id.org/climos/species/sandflies/P_saltiae​>,
+        sandflies:p_alexandri,
+        sandflies:p_anatolicus,
+        sandflies:p_arabicus,
+        sandflies:p_argentipes,
+        sandflies:p_ariasi,
+        sandflies:p_balcanicus,
+        sandflies:p_brevis,
+        sandflies:p_chabaudi,
+        sandflies:p_creticus,
+        sandflies:p_economidesi,
+        sandflies:p_halepensis,
+        sandflies:p_kandelakii,
+        sandflies:p_kazeruni,
+        sandflies:p_killicki,
+        sandflies:p_kyreniae,
+        sandflies:p_langeroni,
+        sandflies:p_longicuspis,
+        sandflies:p_longiductus,
+        sandflies:p_major,
+        sandflies:p_mascittii,
+        sandflies:p_neglectus,
+        sandflies:p_orientalis,
+        sandflies:p_papatasi,
+        sandflies:p_perfiliewi,
+        sandflies:p_perniciosus,
+        sandflies:p_riouxi,
+        sandflies:p_sergenti,
+        sandflies:p_simici,
+        sandflies:p_similis,
+        sandflies:p_simionahalepae,
+        sandflies:p_syriacus,
+        sandflies:p_tobbi,
+        sandflies:s_azizi,
+        sandflies:s_dentata,
+        sandflies:s_minuta ;
+    skos:prefLabel "Sandfly species" .
+
+<https://w3id.org/climos/species/parasites> a skos:ConceptScheme ;
+    skos:hasTopConcept parasites:l_adleri,
+        parasites:l_aethiopica,
+        parasites:l_agamae,
+        parasites:l_amazonensis,
+        parasites:l_arabica,
+        parasites:l_archibaldi,
+        parasites:l_aristedesi,
+        parasites:l_aristidesi,
+        parasites:l_braziliensis,
+        parasites:l_ceramodactyli,
+        parasites:l_chagasi,
+        parasites:l_donovani,
+        parasites:l_enriettii,
+        parasites:l_forattinii,
+        parasites:l_garnhami,
+        parasites:l_gerbilli,
+        parasites:l_gulikae,
+        parasites:l_guyanensis,
+        parasites:l_gymnodactyli,
+        parasites:l_helioscopi,
+        parasites:l_hemidactyli,
+        parasites:l_hoogstraali,
+        parasites:l_infantum,
+        parasites:l_killicki,
+        parasites:l_lainsoni,
+        parasites:l_lindenbergi,
+        parasites:l_macropodum,
+        parasites:l_major,
+        parasites:l_martiniquensis,
+        parasites:l_mexicana,
+        parasites:l_naiffi,
+        parasites:l_nicollei,
+        parasites:l_orientalis,
+        parasites:l_panamensis,
+        parasites:l_peruviana,
+        parasites:l_phrynocephali,
+        parasites:l_pifanoi,
+        parasites:l_platycephala,
+        parasites:l_senegalensis,
+        parasites:l_shawi,
+        parasites:l_sofieffi,
+        parasites:l_tarentolae,
+        parasites:l_tropica,
+        parasites:l_turanica,
+        parasites:l_utingensis,
+        parasites:l_venezeulensis,
+        parasites:l_waltoni,
+        parasites:l_zmeevi,
+        parasites:l_zuckermani ;
+    skos:prefLabel "Parasite species" .
+

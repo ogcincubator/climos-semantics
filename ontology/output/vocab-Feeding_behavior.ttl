@@ -1,0 +1,33 @@
+@prefix Feeding_behavior: <https://w3id.org/climos/vocabs/Feeding_behavior/> .
+@prefix climos-vocabs: <https://w3id.org/climos/vocabs/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+Feeding_behavior:anthropophilic a skos:Concept,
+        climos-vocabs:Feeding_behavior ;
+    skos:prefLabel "Anthropophilic" ;
+    skos:topConceptOf climos-vocabs:Feeding_behavior .
+
+Feeding_behavior:oportunistic a skos:Concept,
+        climos-vocabs:Feeding_behavior ;
+    skos:prefLabel "Oportunistic (Euryxenous)" ;
+    skos:topConceptOf climos-vocabs:Feeding_behavior .
+
+Feeding_behavior:ornithophilic a skos:Concept,
+        climos-vocabs:Feeding_behavior ;
+    skos:prefLabel "Ornithophilic" ;
+    skos:topConceptOf climos-vocabs:Feeding_behavior .
+
+Feeding_behavior:zoophilic a skos:Concept,
+        climos-vocabs:Feeding_behavior ;
+    skos:prefLabel "Zoophilic" ;
+    skos:topConceptOf climos-vocabs:Feeding_behavior .
+
+climos-vocabs:Feeding_behavior a owl:Class,
+        skos:ConceptScheme ;
+    skos:hasTopConcept Feeding_behavior:anthropophilic,
+        Feeding_behavior:oportunistic,
+        Feeding_behavior:ornithophilic,
+        Feeding_behavior:zoophilic ;
+    skos:prefLabel "Feeding behaviors" .
+

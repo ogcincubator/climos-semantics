@@ -1,0 +1,162 @@
+@prefix climos-props: <https://w3id.org/climos/properties/> .
+@prefix observation: <https://w3id.org/climos/properties/observation/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+observation:altitude_range a rdf:Property,
+        skos:Concept ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Altitude range" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:biting_activity a rdf:Property,
+        skos:Concept ;
+    rdfs:range <https://w3id.org/climos/vocabs/biting_activity> ;
+    skos:definition "Crepuscular, nocturnal" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Biting activity" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:blood_meal_analysis a rdf:Property,
+        skos:Concept ;
+    skos:definition "Identification of host species through DNA analysis" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Blood meal analysis" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:breeding_site_preference a rdf:Property,
+        skos:Concept ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Breeding site preference" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:climatic_tolerance a rdf:Property,
+        skos:Concept ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Climatic tolerance" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:feeding_behavior a rdf:Property,
+        skos:Concept ;
+    rdfs:range <https://w3id.org/climos/vocabs/feeding_behavior> ;
+    skos:definition "Anthropophilic, Zoophilic, Ornithophilic, Oportunistic (Euryxenous)" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Feeding behavior" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:flight_range a rdf:Property,
+        skos:Concept ;
+    skos:definition "Distance (in meters) traveled between resting and feeding sites" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Flight range" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:microhabitat a rdf:Property,
+        skos:Concept ;
+    rdfs:range <https://w3id.org/climos/vocabs/microhabitat> ;
+    skos:definition "Peridomestic, sylvatic, urban" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Microhabitat selection" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:pathogen_detection a rdf:Property,
+        skos:Concept ;
+    skos:definition "PCR, microscopy, or culture confirmation of Leishmania or Phlebovi" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Pathogen detection" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:resting_behavior a rdf:Property,
+        skos:Concept ;
+    rdfs:range <https://w3id.org/climos/vocabs/resting_behavior> ;
+    skos:definition "Indoor (endophilic), outdoor (exophilic) preference" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Resting behavior" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:sand_fly_count_month a rdf:Property,
+        skos:Concept ;
+    skos:definition "Number of sand flies collected per month(sum of all traps collected)" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Sand fly count per month" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:sand_fly_count_night a rdf:Property,
+        skos:Concept ;
+    skos:definition "Number of sand flies collected per night (sum of all traps collected)" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Sand fly count per trapping night" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:sand_fly_count_trap a rdf:Property,
+        skos:Concept ;
+    skos:definition "Number of sand flies collected per trap" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Sand fly count per trap" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:sand_fly_mir a rdf:Property,
+        skos:Concept ;
+    skos:definition "The estimated number of infected sand flies per 100 individuals, calculated as (number of positive pools / total sand flies tested) × 100, assuming one infected fly per positive pool." ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Sand fly Minimum infection rate" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:sand_fly_nir a rdf:Property,
+        skos:Concept ;
+    skos:definition "The proportion of sand flies naturally infected with a pathogen, calculated as (number of infected sand flies / total sand flies examined) × 100, providing a direct estimate of infection prevalence in a population." ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Sand fly Natural infection rate" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:sand_fly_v_cap a rdf:Property,
+        skos:Concept ;
+    skos:definition "A measure of a sand fly population's ability to transmit a pathogen, considering factors like biting rate, pathogen incubation period, sand fly survival rate, and infection prevalence, typically expressed as the number of potentially infectious bites per host per day." ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Sand fly vectorial capacity" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:seasonality a rdf:Property,
+        skos:Concept ;
+    skos:definition "active months, peaks in abundance" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Seasonality" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:telmophagy a rdf:Property,
+        skos:Concept ;
+    skos:definition "A feeding strategy where the insect lacerates the host’s skin and feeds on the pooled blood rather than directly inserting its mouthparts into a blood vessel." ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Telmophagy (Pool Feeding / Pool Feeder)" ;
+    skos:topConceptOf climos-props:observation .
+
+observation:vector_competence a rdf:Property,
+        skos:Concept ;
+    skos:definition "Ability to support pathogen development" ;
+    skos:inScheme climos-props:observation ;
+    skos:prefLabel "Vector competence" ;
+    skos:topConceptOf climos-props:observation .
+
+climos-props:observation a skos:ConceptScheme ;
+    skos:hasTopConcept observation:altitude_range,
+        observation:biting_activity,
+        observation:blood_meal_analysis,
+        observation:breeding_site_preference,
+        observation:climatic_tolerance,
+        observation:feeding_behavior,
+        observation:flight_range,
+        observation:microhabitat,
+        observation:pathogen_detection,
+        observation:resting_behavior,
+        observation:sand_fly_count_month,
+        observation:sand_fly_count_night,
+        observation:sand_fly_count_trap,
+        observation:sand_fly_mir,
+        observation:sand_fly_nir,
+        observation:sand_fly_v_cap,
+        observation:seasonality,
+        observation:telmophagy,
+        observation:vector_competence ;
+    skos:prefLabel "Observation properties" .
+

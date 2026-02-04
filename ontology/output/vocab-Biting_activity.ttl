@@ -1,0 +1,21 @@
+@prefix Biting_activity: <https://w3id.org/climos/vocabs/Biting_activity/> .
+@prefix climos-vocabs: <https://w3id.org/climos/vocabs/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+Biting_activity:crepuscular a skos:Concept,
+        climos-vocabs:Biting_activity ;
+    skos:prefLabel "Crepuscular" ;
+    skos:topConceptOf climos-vocabs:Biting_activity .
+
+Biting_activity:nocturnal a skos:Concept,
+        climos-vocabs:Biting_activity ;
+    skos:prefLabel "Noctural" ;
+    skos:topConceptOf climos-vocabs:Biting_activity .
+
+climos-vocabs:Biting_activity a owl:Class,
+        skos:ConceptScheme ;
+    skos:hasTopConcept Biting_activity:crepuscular,
+        Biting_activity:nocturnal ;
+    skos:prefLabel "Biting activities" .
+

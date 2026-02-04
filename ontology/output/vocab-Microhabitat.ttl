@@ -1,0 +1,27 @@
+@prefix Microhabitat: <https://w3id.org/climos/vocabs/Microhabitat/> .
+@prefix climos-vocabs: <https://w3id.org/climos/vocabs/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+Microhabitat:peridomestic a skos:Concept,
+        climos-vocabs:Microhabitat ;
+    skos:prefLabel "Peridomestic" ;
+    skos:topConceptOf climos-vocabs:Microhabitat .
+
+Microhabitat:sylvatic a skos:Concept,
+        climos-vocabs:Microhabitat ;
+    skos:prefLabel "Sylvatic" ;
+    skos:topConceptOf climos-vocabs:Microhabitat .
+
+Microhabitat:urban a skos:Concept,
+        climos-vocabs:Microhabitat ;
+    skos:prefLabel "Urban" ;
+    skos:topConceptOf climos-vocabs:Microhabitat .
+
+climos-vocabs:Microhabitat a owl:Class,
+        skos:ConceptScheme ;
+    skos:hasTopConcept Microhabitat:peridomestic,
+        Microhabitat:sylvatic,
+        Microhabitat:urban ;
+    skos:prefLabel "Ecological microhabitat" .
+

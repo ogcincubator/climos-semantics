@@ -1,0 +1,21 @@
+@prefix Resting_behavior: <https://w3id.org/climos/vocabs/Resting_behavior/> .
+@prefix climos-vocabs: <https://w3id.org/climos/vocabs/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+Resting_behavior:indoor a skos:Concept,
+        climos-vocabs:Resting_behavior ;
+    skos:prefLabel "Indoor (endophilic) preference" ;
+    skos:topConceptOf climos-vocabs:Resting_behavior .
+
+Resting_behavior:outdoor a skos:Concept,
+        climos-vocabs:Resting_behavior ;
+    skos:prefLabel "Outdoor (exophilic) preference" ;
+    skos:topConceptOf climos-vocabs:Resting_behavior .
+
+climos-vocabs:Resting_behavior a owl:Class,
+        skos:ConceptScheme ;
+    skos:hasTopConcept Resting_behavior:indoor,
+        Resting_behavior:outdoor ;
+    skos:prefLabel "Resting behaviors" .
+

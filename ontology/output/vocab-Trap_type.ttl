@@ -1,0 +1,73 @@
+@prefix Trap_type: <https://w3id.org/climos/vocabs/Trap_type/> .
+@prefix climos-vocabs: <https://w3id.org/climos/vocabs/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+Trap_type:cdc a skos:Concept,
+        climos-vocabs:Trap_type ;
+    rdfs:seeAlso <https://www.cdc.gov/mosquitoes/php/toolkit/mosquito-surveillance-traps.html#cdc_generic_section_3-cdc-light-trap> ;
+    skos:broader Trap_type:attractive_trap ;
+    skos:prefLabel "CDC light trap" .
+
+Trap_type:cdc_co2 a skos:Concept,
+        climos-vocabs:Trap_type ;
+    rdfs:seeAlso <https://www.cdc.gov/mosquitoes/php/toolkit/mosquito-surveillance-traps.html#cdc_generic_section_3-cdc-light-trap> ;
+    skos:broader Trap_type:attractive_trap ;
+    skos:prefLabel "CDC light trap CO2 baited" .
+
+Trap_type:sticky_paper a skos:Concept,
+        climos-vocabs:Trap_type ;
+    skos:broader Trap_type:non_attractive_trap ;
+    skos:prefLabel "Sticky paper trap" .
+
+Trap_type:trap_bg_sentinel a skos:Concept,
+        climos-vocabs:Trap_type ;
+    skos:broader Trap_type:attractive_trap ;
+    skos:prefLabel "BG-Sentinel  trap lure baited" .
+
+Trap_type:trap_bgpro_sentinel a skos:Concept,
+        climos-vocabs:Trap_type ;
+    skos:broader Trap_type:attractive_trap ;
+    skos:prefLabel "BG-Sentinel pro trap lure baited" .
+
+Trap_type:trap_cdc_mini a skos:Concept,
+        climos-vocabs:Trap_type ;
+    skos:broader Trap_type:attractive_trap ;
+    skos:prefLabel "CDC miniature light trap" .
+
+Trap_type:trap_gravid a skos:Concept,
+        climos-vocabs:Trap_type ;
+    skos:broader Trap_type:non_attractive_trap ;
+    skos:prefLabel "Gravid Trap" .
+
+Trap_type:trap_modif_cdc_co2 a skos:Concept,
+        climos-vocabs:Trap_type ;
+    skos:broader Trap_type:attractive_trap ;
+    skos:prefLabel "Modified CDC traps CO2 baited" .
+
+Trap_type:non_attractive_trap a skos:Concept,
+        climos-vocabs:Trap_type ;
+    skos:narrower Trap_type:sticky_paper,
+        Trap_type:trap_gravid ;
+    skos:prefLabel "Non-attractive trap" ;
+    skos:topConceptOf climos-vocabs:Trap_type .
+
+Trap_type:attractive_trap a skos:Concept,
+        climos-vocabs:Trap_type ;
+    skos:narrower Trap_type:cdc,
+        Trap_type:cdc_co2,
+        Trap_type:trap_bg_sentinel,
+        Trap_type:trap_bgpro_sentinel,
+        Trap_type:trap_cdc_mini,
+        Trap_type:trap_modif_cdc_co2 ;
+    skos:prefLabel "Attractive trap" ;
+    skos:topConceptOf climos-vocabs:Trap_type .
+
+climos-vocabs:Trap_type a owl:Class,
+        skos:ConceptScheme ;
+    skos:definition "Type of sand fly trap" ;
+    skos:hasTopConcept Trap_type:attractive_trap,
+        Trap_type:non_attractive_trap ;
+    skos:prefLabel "Sand fly trap type" .
+

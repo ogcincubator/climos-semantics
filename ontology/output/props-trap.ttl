@@ -1,0 +1,42 @@
+@prefix climos-props: <https://w3id.org/climos/properties/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix trap: <https://w3id.org/climos/properties/trap/> .
+
+trap:intake_position a rdf:Property,
+        skos:Concept ;
+    skos:inScheme climos-props:trap ;
+    skos:prefLabel "Trap intake position" ;
+    skos:topConceptOf climos-props:trap .
+
+trap:paper_size_x a rdf:Property,
+        skos:Concept ;
+    skos:definition "Size of sticky paper size on dimension X in centimeters" ;
+    skos:inScheme climos-props:trap ;
+    skos:prefLabel "Sticky paper size, cm (X)" ;
+    skos:topConceptOf climos-props:trap .
+
+trap:paper_size_y a rdf:Property,
+        skos:Concept ;
+    rdfs:range <https://w3id.org/climos/vocabs/trap_type> ;
+    skos:definition "Size of sticky paper size on dimension Y in centimeters" ;
+    skos:inScheme climos-props:trap ;
+    skos:prefLabel "Sticky paper size, cm (Y)" ;
+    skos:topConceptOf climos-props:trap .
+
+trap:trap_type a rdf:Property,
+        skos:Concept ;
+    rdfs:range <https://w3id.org/climos/vocabs/trap_intake_position> ;
+    skos:definition "Type of trap" ;
+    skos:inScheme climos-props:trap ;
+    skos:prefLabel "Trap type" ;
+    skos:topConceptOf climos-props:trap .
+
+climos-props:trap a skos:ConceptScheme ;
+    skos:hasTopConcept trap:intake_position,
+        trap:paper_size_x,
+        trap:paper_size_y,
+        trap:trap_type ;
+    skos:prefLabel "Trap properties" .
+
