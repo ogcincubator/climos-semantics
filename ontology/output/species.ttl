@@ -1,4 +1,6 @@
+@prefix climos: <https://w3id.org/climos/> .
 @prefix climos-props: <https://w3id.org/climos/properties/> .
+@prefix ns1: <http://www.opengis.net/ogc-na#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix parasites: <https://w3id.org/climos/species/parasites/> .
 @prefix phleboviruses: <https://w3id.org/climos/species/phleboviruses/> .
@@ -918,4 +920,6 @@ sandflies:s_minuta a owl:Class,
         parasites:l_zmeevi,
         parasites:l_zuckermani ;
     skos:prefLabel "Parasite species" .
+
+[] ns1:targetGraph climos:species .
 
