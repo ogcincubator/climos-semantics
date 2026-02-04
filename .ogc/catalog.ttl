@@ -4,18 +4,15 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix profiles: <http://www.opengis.net/def/metamodel/profiles/> .
 
-_:iso19157-3-register a dcat:Catalog ;
-  dct:title "CLIMOS ontology" ;
-  dcat:dataset _:sandfly-species;
-  dcfg:hasProfileSource "sparql:http://defs-dev.opengis.net:8080/rdf4j-server/repositories/profiles" ;
+_:climos-rainbow a dcat:Catalog;
+  dct:title "CLIMOS RAINBOW catalog" ;
+  dcat:dataset _:climosData ;
+  dcfg:hasProfileSource "sparql:http://defs-dev.opengis.net/fuseki/query" ;
   dcfg:ignoreProfileArtifactErrors true ;
 .
 
-_:sandfly-species a dcat:Dataset, dcfg:UpliftConfiguration ;
-  dct:description "Sandfly species uplift" ;
-  dcfg:glob "ontology/sandfly-species.csv.json" ;
-  dcfg:hasUpliftDefinition [
-    dcfg:order 1 ;
-    dcfg:file "basic-uplift.yml" ;
-  ] ;
+_:climosData a dcat:Dataset, dcfg:DomainConfiguration ;
+  dct:description "Climos data" ;
+  dcfg:glob "ontology/*.ttl", "ontology/output/*.ttl" ;
+  dct:conformsTo profiles:skos_shared, profiles:skos_conceptscheme, profiles:skos_conceptscheme_ogc, profiles:vocprez_ogc ;
 .
