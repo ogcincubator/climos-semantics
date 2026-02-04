@@ -99,9 +99,9 @@ parasites:l_chagasi a owl:Class,
 
 parasites:l_donovani a owl:Class,
         skos:Concept ;
-    rdfs:seeAlso <http://purl.bioontology.org/ontology/SNOMEDCT/16043006
-http://purl.bioontology.org/ontology/SNMI/L-50481
-http://purl.bioontology.org/ontology/NCBITAXON/5661> ;
+    rdfs:seeAlso <http://purl.bioontology.org/ontology/NCBITAXON/5661>,
+        <http://purl.bioontology.org/ontology/SNMI/L-50481>,
+        <http://purl.bioontology.org/ontology/SNOMEDCT/16043006> ;
     skos:exactMatch <http://dbpedia.org/resource/Leishmania_donovani>,
         <https://openbiodiv.net/6ba45dc1-e078-4c7a-b45c-05e05c6ffb41> ;
     skos:inScheme <https://w3id.org/climos/species/parasites> ;
