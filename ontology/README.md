@@ -1,6 +1,6 @@
 # CLIMOS Ontology
 
-The CLIMOS Ontology is created from different sources that are assembled here:
+The CLIMOS Ontology is created from different sources that are assembled here.
 
 ## CLIMOS Ontology terms Spreadsheet
 

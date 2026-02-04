@@ -1,3 +1,4 @@
+name: Process spreadsheet
 on:
   #schedule:
   #  - cron: '0 3 */4 * *'
@@ -12,19 +13,18 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - name: Download and uplift files
         run: |
-          pip install ogc-na
-          python -m ogc.na.download --spec .ogc/file-downloads.yaml
-          for FILE in ontology/*-uplift.yml ; do
-            python -m ogc.na.ingest_json --skip-on-missing-context --context "${FILE}" \
-              --ttl --ttl-file "${FILE%-uplift.yml}.ttl" "ontology/source.xlsx" 
-          done
+          cd ontology
+          pip install rdflib openpyxl
+          python scripts/species.py source.xlsx
+          python scripts/vocabularies.py source.xlsx
+          python scripts/properties.py source.xlsx
       - name: Commit new versions of files
         uses: EndBug/add-and-commit@v9
         with:
-          add: .
-          message: "Downloaded new versions of documents"
+          add: ontology/output
+          message: "Generated new version of ontology"
           default_author: github_actions
 
