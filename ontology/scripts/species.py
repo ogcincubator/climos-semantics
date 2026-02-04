@@ -68,7 +68,9 @@ for cs_def in CONCEPT_SCHEMES:
             if cell.value:
                 g.add((res, SKOS.exactMatch, URIRef(cell.value)))
         if row_values[4]:
-            g.add((res, RDFS.seeAlso, URIRef(row_values[4])))
+            for v in row_values[4].split('\n'):
+                if v.strip():
+                    g.add((res, RDFS.seeAlso, URIRef(v.strip())))
         g.add((res, CLIMOS_PROPS['usedInCLIMOS'], Literal(bool(row_values[5] and row_values[5].strip() == 'Y'))))
 
 output_dir = Path('output')

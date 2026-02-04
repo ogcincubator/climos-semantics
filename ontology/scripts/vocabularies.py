@@ -75,7 +75,9 @@ for i, row in enumerate(terms_ws.rows):
         g.add((res, SKOS.definition, Literal(row_values[4])))
 
     if len(row_values) > 5 and row_values[5]:
-        g.add((res, RDFS.seeAlso, URIRef(row_values[5])))
+        for v in row_values[5].split('\n'):
+            if v.strip():
+                g.add((res, RDFS.seeAlso, URIRef(v)))
 
 output_dir = Path('output')
 output_dir.mkdir(parents=True, exist_ok=True)

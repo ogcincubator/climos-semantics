@@ -73,7 +73,9 @@ for cs_def in CONCEPT_SCHEMES:
         if len(row_values) > 3 and row_values[3]:
             g.add((res, RDFS.range, CLIMOS_VOCABS[row_values[3]]))
         if len(row_values) > 4 and row_values[4]:
-            g.add((res, RDFS.seeAlso, URIRef(row_values[3])))
+            for v in row_values[4].split('\n'):
+                if v.strip():
+                    g.add((res, RDFS.seeAlso, URIRef(v)))
         if len(row_values) > 5 and row_values[5] and row_values[5].strip() == 'Y':
             g.add((res, CLIMOS_PROPS['usedInCLIMOS'], Literal(True)))
 
