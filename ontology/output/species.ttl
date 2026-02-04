@@ -509,24 +509,24 @@ phleboviruses:zerdali_virus a owl:Class,
     skos:topConceptOf <https://w3id.org/climos/species/phleboviruses> ;
     climos-props:usedInCLIMOS false .
 
-<https://w3id.org/climos/species/sandflies/P_acusieli​> a owl:Class,
+sandflies:P_acusieli a owl:Class,
         skos:Concept ;
     skos:inScheme <https://w3id.org/climos/species/sandflies> ;
-    skos:prefLabel "Phlebotomus jacusieli​" ;
+    skos:prefLabel "Phlebotomus jacusieli" ;
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS true .
 
-<https://w3id.org/climos/species/sandflies/P_canaaniticus​> a owl:Class,
+sandflies:P_canaaniticus a owl:Class,
         skos:Concept ;
     skos:inScheme <https://w3id.org/climos/species/sandflies> ;
-    skos:prefLabel "Phlebotomus canaaniticus​" ;
+    skos:prefLabel "Phlebotomus canaaniticus" ;
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS true .
 
-<https://w3id.org/climos/species/sandflies/P_perfiliewi_galilaeus​> a owl:Class,
+sandflies:P_perfiliewi_galilaeus a owl:Class,
         skos:Concept ;
     skos:inScheme <https://w3id.org/climos/species/sandflies> ;
-    skos:prefLabel "Phlebotomus perfiliewi galilaeus​" ;
+    skos:prefLabel "Phlebotomus perfiliewi galilaeus" ;
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS true .
 
@@ -537,10 +537,10 @@ sandflies:P_saevus a owl:Class,
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS true .
 
-<https://w3id.org/climos/species/sandflies/P_saltiae​> a owl:Class,
+sandflies:P_saltiae a owl:Class,
         skos:Concept ;
     skos:inScheme <https://w3id.org/climos/species/sandflies> ;
-    skos:prefLabel "Phlebotomus saltiae​" ;
+    skos:prefLabel "Phlebotomus saltiae" ;
     skos:topConceptOf <https://w3id.org/climos/species/sandflies> ;
     climos-props:usedInCLIMOS true .
 
@@ -827,11 +827,11 @@ sandflies:s_minuta a owl:Class,
     skos:prefLabel "Phlebovirus species" .
 
 <https://w3id.org/climos/species/sandflies> a skos:ConceptScheme ;
-    skos:hasTopConcept <https://w3id.org/climos/species/sandflies/P_acusieli​>,
-        <https://w3id.org/climos/species/sandflies/P_canaaniticus​>,
-        <https://w3id.org/climos/species/sandflies/P_perfiliewi_galilaeus​>,
+    skos:hasTopConcept sandflies:P_acusieli,
+        sandflies:P_canaaniticus,
+        sandflies:P_perfiliewi_galilaeus,
         sandflies:P_saevus,
-        <https://w3id.org/climos/species/sandflies/P_saltiae​>,
+        sandflies:P_saltiae,
         sandflies:p_alexandri,
         sandflies:p_anatolicus,
         sandflies:p_arabicus,
