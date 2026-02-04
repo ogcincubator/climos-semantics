@@ -6,6 +6,9 @@ from openpyxl import load_workbook
 from rdflib import Namespace, URIRef, Graph, RDF, SKOS, OWL, Literal, RDFS, BNode
 
 import warnings
+
+from climos_utils import strip
+
 warnings.filterwarnings("ignore")
 
 CONCEPT_SCHEMES = [
@@ -47,7 +50,7 @@ for cs_def in CONCEPT_SCHEMES:
         if i == 0:
             continue
 
-        row_values = [c.value.strip() if c.value else '' for c in row]
+        row_values = [strip(c.value) if c.value else '' for c in row]
 
         if not any(row_values):
             continue
@@ -69,9 +72,9 @@ for cs_def in CONCEPT_SCHEMES:
                 g.add((res, SKOS.exactMatch, URIRef(cell.value)))
         if row_values[4]:
             for v in row_values[4].split('\n'):
-                if v.strip():
-                    g.add((res, RDFS.seeAlso, URIRef(v.strip())))
-        g.add((res, CLIMOS_PROPS['usedInCLIMOS'], Literal(bool(row_values[5] and row_values[5].strip() == 'Y'))))
+                if strip(v):
+                    g.add((res, RDFS.seeAlso, URIRef(strip(v))))
+        g.add((res, CLIMOS_PROPS['usedInCLIMOS'], Literal(bool(strip(row_values[5]) == 'Y'))))
 
 output_dir = Path('output')
 output_dir.mkdir(parents=True, exist_ok=True)

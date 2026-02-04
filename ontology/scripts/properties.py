@@ -6,6 +6,8 @@ from typing import Any
 from openpyxl import load_workbook
 from rdflib import Namespace, URIRef, Graph, RDF, SKOS, OWL, Literal, RDFS
 
+from climos_utils import strip
+
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -50,13 +52,13 @@ for cs_def in CONCEPT_SCHEMES:
         if i == 0:
             continue
 
-        row_values = [c.value.strip() if c.value else '' for c in row]
+        row_values = [strip(c.value) if c.value else '' for c in row]
 
         if not any(row_values):
             continue
 
         res_uri = row_values[0].lower()
-        if not res_uri or not res_uri.strip():
+        if not res_uri or not strip(res_uri):
             raise ValueError(f"Invalid URI identifier at {cs_def['ws']} row {i}")
         if '/' in res_uri or '(' in res_uri:
             res_uri = re.sub(' ', '_', re.sub(r'\s*[(/].*', '', res_uri.lower()))
@@ -76,7 +78,7 @@ for cs_def in CONCEPT_SCHEMES:
             for v in row_values[4].split('\n'):
                 if v.strip():
                     g.add((res, RDFS.seeAlso, URIRef(v)))
-        if len(row_values) > 5 and row_values[5] and row_values[5].strip() == 'Y':
+        if len(row_values) > 5 and strip(row_values[5]) == 'Y':
             g.add((res, CLIMOS_PROPS['usedInCLIMOS'], Literal(True)))
 
 

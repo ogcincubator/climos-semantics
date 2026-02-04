@@ -5,6 +5,8 @@ from pathlib import Path
 from openpyxl import load_workbook
 from rdflib import Namespace, URIRef, Graph, RDF, SKOS, OWL, Literal, RDFS
 
+from climos_utils import strip
+
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -24,7 +26,7 @@ for i, row in enumerate(vocabs_ws.rows):
     if i == 0:
         continue
 
-    row_values = [c.value.strip() if c.value else '' for c in row]
+    row_values = [strip(c.value) if c.value else '' for c in row]
 
     if not any(row_values):
         continue
@@ -76,8 +78,8 @@ for i, row in enumerate(terms_ws.rows):
 
     if len(row_values) > 5 and row_values[5]:
         for v in row_values[5].split('\n'):
-            if v.strip():
-                g.add((res, RDFS.seeAlso, URIRef(v)))
+            if strip(v):
+                g.add((res, RDFS.seeAlso, URIRef(strip(v))))
 
 output_dir = Path('output')
 output_dir.mkdir(parents=True, exist_ok=True)
