@@ -9,7 +9,7 @@ climos:properties a skos:ConceptScheme ;
   skos:definition "Properties and terms defined to support the CLIMOS ontology" ;
 .
 
-climos-props:usedInClimos a skos:Concept ;
+climos-props:usedInCLIMOS a skos:Concept ;
   skos:prefLabel "Used in CLIMOS" ;
   skos:definition "Declares whether this species, term or property has been used in CLIMOS." ;
   rdfs:range xsd:boolean ;
