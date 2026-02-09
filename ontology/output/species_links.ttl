@@ -1,0 +1,671 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ogc: <http://www.opengis.net/ogc-na#> .
+
+<https://w3id.org/climos/species/parasites/l_adleri> skos:exactMatch <https://openbiodiv.net/45dca015-b69d-4d5c-beba-6105fb62b0f4> .
+
+<https://w3id.org/climos/species/parasites/l_aethiopica> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+aethiopica&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/59ee5ceb-7d6b-4160-856f-a6b1ceeecd13> .
+
+<https://w3id.org/climos/species/parasites/l_agamae> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/european-union-one-health-2023-zoonoses-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+agamae&items_per_page=50> .
+
+<https://w3id.org/climos/species/parasites/l_amazonensis> rdfs:seeAlso <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+amazonensis&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/4b0b202e-3ecd-4445-85d6-a5c4f6182a1f>,
+        <https://openbiodiv.net/803d7606-3a10-42bd-8ada-d351d27c1880> .
+
+<https://w3id.org/climos/species/parasites/l_archibaldi> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+archibaldi&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/20324bdf-3d41-49e3-8895-9d53ae506dcc> .
+
+<https://w3id.org/climos/species/parasites/l_braziliensis> rdfs:seeAlso <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+braziliensis&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/3cdf8eef-7057-4deb-a924-9fdb0fad9d6e>,
+        <https://openbiodiv.net/9f2964f9-963d-4ce9-8dc8-258a255cf2a7> .
+
+<https://w3id.org/climos/species/parasites/l_chagasi> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+chagasi&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/bae57860-f43a-42a5-9ee1-7fb8ab43e546> .
+
+<https://w3id.org/climos/species/parasites/l_donovani> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/risk-importation-and-spread-malaria-and-other-vector-borne-diseases-associated>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+donovani&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/6ba45dc1-e078-4c7a-b45c-05e05c6ffb41>,
+        <https://openbiodiv.net/c63b070e-f69e-49fb-8475-bec6a7e70678> .
+
+<https://w3id.org/climos/species/parasites/l_enriettii> skos:exactMatch <https://openbiodiv.net/d59e97e1-4a28-421c-a601-9fce98320ad5> .
+
+<https://w3id.org/climos/species/parasites/l_garnhami> skos:exactMatch <https://openbiodiv.net/f871be29-8cf7-4a14-9dd5-2ce54adaca43> .
+
+<https://w3id.org/climos/species/parasites/l_guyanensis> rdfs:seeAlso <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+guyanensis&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/8b4ad55e-4211-48a8-a6d7-a843c290947c> .
+
+<https://w3id.org/climos/species/parasites/l_infantum> rdfs:seeAlso <https://doi.org/10.1371/journal.pntd.0011497>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/news-events/canine-leishmaniasis-surveillance-northern-italy-kennel>,
+        <https://www.ecdc.europa.eu/en/news-events/first-surveys-investigate-presence-canine-leishmaniasis-and-its-phlebotomine-vectors>,
+        <https://www.ecdc.europa.eu/en/news-events/international-symposium-phlebotominae-sand-flies-isops-vii>,
+        <https://www.ecdc.europa.eu/en/news-events/leishmaniasis-emergence-europe>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/risk-importation-and-spread-malaria-and-other-vector-borne-diseases-associated>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-and-control-west-nile-virus-and-usutu-virus-infections>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+infantum&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/a63d5807-b693-4bcc-895a-ebf5dbc9cc4a>,
+        <https://openbiodiv.net/f42162cb-72fb-465d-b0e1-d679fa34b1a9> .
+
+<https://w3id.org/climos/species/parasites/l_killicki> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+killicki&items_per_page=50> .
+
+<https://w3id.org/climos/species/parasites/l_lainsoni> skos:exactMatch <https://openbiodiv.net/f66d98c9-acdb-4bcd-b9c9-89a36b482b8d> .
+
+<https://w3id.org/climos/species/parasites/l_lindenbergi> skos:exactMatch <https://openbiodiv.net/3d026b22-536f-4cfb-b055-7881c02bef3c> .
+
+<https://w3id.org/climos/species/parasites/l_major> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/news-events/distribution-leishmania-major-zymodemes-relation-populations-phlebotomus-papatasi-sand>,
+        <https://www.ecdc.europa.eu/en/publications-data/climate-change-and-communicable-diseases-eu-member-states>,
+        <https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-26-june-2-july-2022-week-26>,
+        <https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-3-9-march-2019-week-10>,
+        <https://www.ecdc.europa.eu/en/publications-data/consolidated-annual-activity-report-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/consolidated-annual-activity-report-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/european-union-one-health-2020-zoonoses-report>,
+        <https://www.ecdc.europa.eu/en/publications-data/european-union-one-health-2021-zoonoses-report>,
+        <https://www.ecdc.europa.eu/en/publications-data/european-union-one-health-2022-zoonoses-report>,
+        <https://www.ecdc.europa.eu/en/publications-data/european-union-one-health-2023-zoonoses-report>,
+        <https://www.ecdc.europa.eu/en/publications-data/expert-consultation-tick-borne-diseases-emphasis-lyme-borreliosis-and-tick-borne>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/fostering-collaboration-public-health-microbiology-european-union>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-and-control-west-nile-virus-and-usutu-virus-infections>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+major&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/25440c19-b0eb-4826-9e4f-bd6c95c89086>,
+        <https://openbiodiv.net/fac79dac-c792-4ea3-933a-9f135f921764> .
+
+<https://w3id.org/climos/species/parasites/l_martiniquensis> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+martiniquensis&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/100e8a11-615b-4e0f-b557-bb91eb4f0d45>,
+        <https://openbiodiv.net/c977a9a4-8463-4864-af3e-25a3ef119568> .
+
+<https://w3id.org/climos/species/parasites/l_mexicana> rdfs:seeAlso <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+mexicana&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/910566c2-ea20-4f07-8ebd-f2873f727024>,
+        <https://openbiodiv.net/c619c1eb-c1f3-4a57-b25e-ed60ea8eae44> .
+
+<https://w3id.org/climos/species/parasites/l_naiffi> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+naiffi&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/83a469bd-940b-4f5f-84ce-f852832eb684> .
+
+<https://w3id.org/climos/species/parasites/l_orientalis> skos:exactMatch <https://openbiodiv.net/dd130248-9f36-4cba-91a2-a0736fcda7e4> .
+
+<https://w3id.org/climos/species/parasites/l_panamensis> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+panamensis&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/83a469bd-940b-4f5f-84ce-f852832eb684> .
+
+<https://w3id.org/climos/species/parasites/l_peruviana> rdfs:seeAlso <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+peruviana&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/8f3d2f91-14ed-46c4-97b4-549dd4327091> .
+
+<https://w3id.org/climos/species/parasites/l_pifanoi> skos:exactMatch <https://openbiodiv.net/f5fee394-cdee-478c-b53b-0301ded0ae30> .
+
+<https://w3id.org/climos/species/parasites/l_shawi> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+shawi&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/41039193-ac6f-457e-86af-fa756b2372df> .
+
+<https://w3id.org/climos/species/parasites/l_tarentolae> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+tarentolae&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/5bc5de14-6343-43ec-b1a6-65c8dc05ecfa>,
+        <https://openbiodiv.net/7d22fd6d-de99-46d9-81b1-572d91ccf808> .
+
+<https://w3id.org/climos/species/parasites/l_tropica> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/news-events/leishmaniasis-emergence-europe>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/european-union-one-health-2022-zoonoses-report>,
+        <https://www.ecdc.europa.eu/en/publications-data/european-union-one-health-2023-zoonoses-report>,
+        <https://www.ecdc.europa.eu/en/publications-data/risk-importation-and-spread-malaria-and-other-vector-borne-diseases-associated>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Leishmania+tropica&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/738bcd3c-8cc6-41b6-a8ca-fbd3fbbcad67>,
+        <https://openbiodiv.net/9bd94401-dddf-438f-a6ad-91387c82b580> .
+
+<https://w3id.org/climos/species/parasites/l_waltoni> skos:exactMatch <https://openbiodiv.net/56c7ce3e-0a1d-461d-bfd8-fca751e72277> .
+
+<https://w3id.org/climos/species/sandflies/P_acusieli> skos:exactMatch <https://openbiodiv.net/f43a7d58-12db-4553-b80f-b3f5a89d16f2> .
+
+<https://w3id.org/climos/species/sandflies/P_perfiliewi_galilaeus> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+perfiliewi+galilaeus&items_per_page=50> .
+
+<https://w3id.org/climos/species/sandflies/P_saevus> skos:exactMatch <https://openbiodiv.net/0ac027eb-5d15-40bd-ad09-8b5b05f0c439>,
+        <https://openbiodiv.net/9824c322-a29f-4c39-a958-7e1e6643831c> .
+
+<https://w3id.org/climos/species/sandflies/p_alexandri> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-europe-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-europe-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+alexandri&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/0e76c577-6012-4675-80a0-ae8b81d8dc14>,
+        <https://openbiodiv.net/32f96481-2550-4304-8b99-81d333adf496>,
+        <https://openbiodiv.net/a8728e4c-92c9-444e-8c63-54873aabd3fa>,
+        <https://openbiodiv.net/d402d4a5-1f64-4177-ba4f-28565dbecb3c> .
+
+<https://w3id.org/climos/species/sandflies/p_anatolicus> skos:exactMatch <https://openbiodiv.net/7689053c-94ff-42e2-93d3-567f45135321> .
+
+<https://w3id.org/climos/species/sandflies/p_arabicus> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+arabicus&items_per_page=50> .
+
+<https://w3id.org/climos/species/sandflies/p_argentipes> skos:exactMatch <https://openbiodiv.net/1ee7cf20-8809-4e80-80dd-fe950973f851> .
+
+<https://w3id.org/climos/species/sandflies/p_ariasi> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/low-seroprevalence-sandfly-fever-sicilian-virus-antibodies-humans-marseille-france>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-modelling-method-vector-surveillance>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+ariasi&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/cc219e7c-5761-447c-ab9b-7cddd9c5838b> .
+
+<https://w3id.org/climos/species/sandflies/p_balcanicus> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+balcanicus&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/6649f97d-a431-4a49-b481-a66775542789>,
+        <https://openbiodiv.net/e4214af0-40e0-4448-86ac-59e4d4ebdea1> .
+
+<https://w3id.org/climos/species/sandflies/p_brevis> skos:exactMatch <https://openbiodiv.net/23c35ceb-4839-4bee-b7b1-abe3d884dbf6>,
+        <https://openbiodiv.net/a11a0c40-07cd-4afa-bc8b-75b8436de9a8> .
+
+<https://w3id.org/climos/species/sandflies/p_chabaudi> skos:exactMatch <https://openbiodiv.net/519df2de-a64a-4995-9008-bcafefd96405>,
+        <https://openbiodiv.net/e0b7e037-81a3-4b81-bdd1-c341073219be> .
+
+<https://w3id.org/climos/species/sandflies/p_creticus> skos:exactMatch <https://openbiodiv.net/a7cb9f7f-42aa-463d-903b-8f04b6e1c498>,
+        <https://openbiodiv.net/c9f986c9-6338-404c-b5f2-7a20c26f58dd> .
+
+<https://w3id.org/climos/species/sandflies/p_halepensis> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+halepensis&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/d4da27bf-3c77-44ca-857a-64a05480c0e9> .
+
+<https://w3id.org/climos/species/sandflies/p_kandelakii> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+kandelakii&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/9ceda5e6-eae2-49c5-b7e9-ae4dff0cb0cd>,
+        <https://openbiodiv.net/f0d588b1-f43e-4722-be28-b444caf82f1c> .
+
+<https://w3id.org/climos/species/sandflies/p_killicki> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+killicki&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/7b01487b-1c59-4d6a-a4ed-1ce750e94f28>,
+        <https://openbiodiv.net/a73780fb-26a1-4199-940b-52723b899bae> .
+
+<https://w3id.org/climos/species/sandflies/p_langeroni> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+langeroni&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/09186b19-835f-42c8-9e6e-5a7b23cfaf33>,
+        <https://openbiodiv.net/45fb6f61-b2cb-43b8-87dc-498e0e2cf40d>,
+        <https://openbiodiv.net/65d2466a-4648-4547-a7bb-e6f7632159b2> .
+
+<https://w3id.org/climos/species/sandflies/p_longicuspis> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+longicuspis&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/3ece95cf-2d18-4fba-8a4e-6295174dc65a>,
+        <https://openbiodiv.net/e6004089-2e5e-4fd3-979d-313492b3713c> .
+
+<https://w3id.org/climos/species/sandflies/p_longiductus> skos:exactMatch <https://openbiodiv.net/3ee4e9ca-14ac-424f-8fcc-709c6929570e>,
+        <https://openbiodiv.net/4ade002b-60e9-4d37-b948-f3eebdf252d9> .
+
+<https://w3id.org/climos/species/sandflies/p_major> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/leishmaniasis/facts>,
+        <https://www.ecdc.europa.eu/en/news-events/characterization-sandfly-fever-sicilian-virus-isolated-during-sandfly-fever-epidemic>,
+        <https://www.ecdc.europa.eu/en/news-events/distribution-leishmania-major-zymodemes-relation-populations-phlebotomus-papatasi-sand>,
+        <https://www.ecdc.europa.eu/en/news-events/latest-ecdc-vector-maps-show-new-information-presence-aedes-mosquitoes-and-ticks-europe>,
+        <https://www.ecdc.europa.eu/en/news-events/low-seroprevalence-sandfly-fever-sicilian-virus-antibodies-humans-marseille-france>,
+        <https://www.ecdc.europa.eu/en/publications-data/biocide-resistance-wild-vector-populations-eu>,
+        <https://www.ecdc.europa.eu/en/publications-data/climate-change-and-communicable-diseases-eu-member-states>,
+        <https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-august-2024-week-33>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-modelling-method-vector-surveillance>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+major&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/50c1dad1-f537-4dd9-bb0f-ced6d67e7010>,
+        <https://openbiodiv.net/58592cdd-17f9-4464-8dab-c4084f3c7977>,
+        <https://openbiodiv.net/ba579d81-1416-4be7-84b4-e02ff34e1de7>,
+        <https://openbiodiv.net/e08dbdfd-df0c-4f93-ae41-7335bbd3d338>,
+        <https://openbiodiv.net/e2e09092-0bc0-4572-ad18-e5d1c19a51fb>,
+        <https://openbiodiv.net/eb11fae4-9efd-4cde-82e2-2b3381de264f>,
+        <https://openbiodiv.net/fa63ec1c-53d1-41ce-86c2-4176c296ff2d> .
+
+<https://w3id.org/climos/species/sandflies/p_mascittii> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/first-surveys-investigate-presence-canine-leishmaniasis-and-its-phlebotomine-vectors>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascittii-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/photo-library-ticks-species>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+mascittii&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/130669c6-7c34-4404-8079-f8d96fbb9924>,
+        <https://openbiodiv.net/1f506547-b02d-4ea3-b9e4-d59ce8e803da>,
+        <https://openbiodiv.net/a02232f9-4aad-4acf-9aca-483576d58bf5> .
+
+<https://w3id.org/climos/species/sandflies/p_neglectus> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/first-surveys-investigate-presence-canine-leishmaniasis-and-its-phlebotomine-vectors>,
+        <https://www.ecdc.europa.eu/en/news-events/multilocus-molecular-and-phylogenetic-analysis-phlebotomine-sand-flies-diptera>,
+        <https://www.ecdc.europa.eu/en/news-events/spatial-distribution-phlebotomine-sand-flies-aydin-mountains-and-surroundings-main>,
+        <https://www.ecdc.europa.eu/en/news-events/updated-maps-mosquitoes-ticks-and-sand-flies-europe>,
+        <https://www.ecdc.europa.eu/en/publications-data/biocide-resistance-wild-vector-populations-eu>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/photo-library-ticks-species>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+neglectus&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/47d7a218-3a4a-4e37-8447-978e248bcd04>,
+        <https://openbiodiv.net/637b1669-74d0-4e33-a92c-4286677c797d>,
+        <https://openbiodiv.net/7abdec2f-fc55-4b1b-91dd-a9f7395d6163> .
+
+<https://w3id.org/climos/species/sandflies/p_orientalis> skos:exactMatch <https://openbiodiv.net/198a6dcb-38d5-4a86-ace6-7262fb215f3f> .
+
+<https://w3id.org/climos/species/sandflies/p_papatasi> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/distribution-leishmania-major-zymodemes-relation-populations-phlebotomus-papatasi-sand>,
+        <https://www.ecdc.europa.eu/en/news-events/efficacy-commercial-mosquito-traps-capturing-phlebotomine-sand-flies-diptera>,
+        <https://www.ecdc.europa.eu/en/news-events/low-seroprevalence-sandfly-fever-sicilian-virus-antibodies-humans-marseille-france>,
+        <https://www.ecdc.europa.eu/en/news-events/multilocus-molecular-and-phylogenetic-analysis-phlebotomine-sand-flies-diptera>,
+        <https://www.ecdc.europa.eu/en/news-events/updated-maps-mosquitoes-ticks-and-sand-flies-europe>,
+        <https://www.ecdc.europa.eu/en/publications-data/biocide-resistance-wild-vector-populations-eu>,
+        <https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-august-2024-week-33>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-modelling-method-vector-surveillance>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+papatasi&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/7a5f33cd-273f-4256-a147-8a5d58c81b7d>,
+        <https://openbiodiv.net/8b7ae403-1884-4254-855a-355ad7bdfbee>,
+        <https://openbiodiv.net/f271f0e1-5b23-4b22-aaec-de52f2d4fbb4>,
+        <https://openbiodiv.net/fceef0f8-15e0-4a77-9a75-44325f4ccbb1> .
+
+<https://w3id.org/climos/species/sandflies/p_perfiliewi> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/canine-leishmaniasis-surveillance-northern-italy-kennel>,
+        <https://www.ecdc.europa.eu/en/news-events/first-surveys-investigate-presence-canine-leishmaniasis-and-its-phlebotomine-vectors>,
+        <https://www.ecdc.europa.eu/en/news-events/multilocus-molecular-and-phylogenetic-analysis-phlebotomine-sand-flies-diptera>,
+        <https://www.ecdc.europa.eu/en/news-events/updated-maps-mosquitoes-ticks-and-sand-flies-europe>,
+        <https://www.ecdc.europa.eu/en/publications-data/biocide-resistance-wild-vector-populations-eu>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+perfiliewi&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/28ed086d-b267-4d1f-880c-bd88ac8615d1>,
+        <https://openbiodiv.net/3ee9927a-4bf8-4d5a-bc2d-b6f19357ab02>,
+        <https://openbiodiv.net/5aa6f55a-a4cc-4f01-b852-d9d549ea1b91>,
+        <https://openbiodiv.net/d7055f5a-09a0-4261-a6dc-7d0788e45528>,
+        <https://openbiodiv.net/fc9065c7-f8f7-4bb4-9825-190baa4fc7a5> .
+
+<https://w3id.org/climos/species/sandflies/p_perniciosus> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/low-seroprevalence-sandfly-fever-sicilian-virus-antibodies-humans-marseille-france>,
+        <https://www.ecdc.europa.eu/en/news-events/multilocus-molecular-and-phylogenetic-analysis-phlebotomine-sand-flies-diptera>,
+        <https://www.ecdc.europa.eu/en/publications-data/environmental-change-and-infectious-disease-workshop>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-april-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perniciosus-current-known-distribution-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/photo-library-ticks-species>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-modelling-method-vector-surveillance>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+perniciosus&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/3abb1d99-0243-495a-8a7a-3342719d3b41>,
+        <https://openbiodiv.net/ba4b8dc6-f76e-4fba-b6a8-5c11c9ab35cf> .
+
+<https://w3id.org/climos/species/sandflies/p_riouxi> skos:exactMatch <https://openbiodiv.net/4169e350-a833-456a-b695-972636629516>,
+        <https://openbiodiv.net/b861aded-f4df-4f24-bf1e-d64dc58dd051> .
+
+<https://w3id.org/climos/species/sandflies/p_sergenti> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/updated-maps-mosquitoes-ticks-and-sand-flies-europe>,
+        <https://www.ecdc.europa.eu/en/publications-data/biocide-resistance-wild-vector-populations-eu>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-europe-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-europe-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/risk-importation-and-spread-malaria-and-other-vector-borne-diseases-associated>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+sergenti&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/908fcd51-26f7-4e68-9514-5dd602d8db69>,
+        <https://openbiodiv.net/c85f2518-df6b-4114-8874-b1815e9c94a7>,
+        <https://openbiodiv.net/f2c92c8d-63d0-4f76-a37c-4201aa8aca13>,
+        <https://openbiodiv.net/ff981e35-b5de-4f87-96fa-d2d554c58184> .
+
+<https://w3id.org/climos/species/sandflies/p_simici> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/publications-data/biocide-resistance-wild-vector-populations-eu>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+simici&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/18e4b0d8-0d62-49fe-8901-7c76bed209a7>,
+        <https://openbiodiv.net/323dedf8-5a5a-44e8-a165-ab7d3181570d> .
+
+<https://w3id.org/climos/species/sandflies/p_similis> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/spatial-distribution-phlebotomine-sand-flies-aydin-mountains-and-surroundings-main>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/photo-library-ticks-species>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+similis&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/0d6860e4-dca9-4a50-8689-694cecdea6b7>,
+        <https://openbiodiv.net/7270ef89-999b-4ed9-8ad3-04b1241633e5>,
+        <https://openbiodiv.net/d8c31133-aa36-4e91-a3dc-0a4e6fa30b44> .
+
+<https://w3id.org/climos/species/sandflies/p_simionahalepae> skos:exactMatch <https://openbiodiv.net/f164ece0-3b40-4d15-945f-5617834f7313>,
+        <https://openbiodiv.net/f8c593d6-2bd0-4e60-87b3-426d77e61430> .
+
+<https://w3id.org/climos/species/sandflies/p_syriacus> rdfs:seeAlso <https://www.ecdc.europa.eu/en/news-events/updated-maps-mosquitoes-ticks-and-sand-flies-europe>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+syriacus&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/2425d50a-e6a5-4fe2-9925-4d3e2c6c3dc8> .
+
+<https://w3id.org/climos/species/sandflies/p_tobbi> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/phlebotomine-maps>,
+        <https://www.ecdc.europa.eu/en/news-events/spatial-distribution-phlebotomine-sand-flies-aydin-mountains-and-surroundings-main>,
+        <https://www.ecdc.europa.eu/en/publications-data/biocide-resistance-wild-vector-populations-eu>,
+        <https://www.ecdc.europa.eu/en/publications-data/field-sampling-methods-mosquitoes-sandflies-biting-midges-and-ticks>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-alexandri-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-ariasi-current-known-distribution-europe-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-mascitii-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-neglectus-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-papatasi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-perfiliewi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-sergenti-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-similis-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-august-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-europe-april-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-february-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-january-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-january-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-july-2019>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-march-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-march-2022>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2018>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-may-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-october-2020>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-october-2021>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-october-2023>,
+        <https://www.ecdc.europa.eu/en/publications-data/phlebotomus-tobbi-current-known-distribution-september-2017>,
+        <https://www.ecdc.europa.eu/en/publications-data/photo-library-ticks-species>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-modelling-method-vector-surveillance>,
+        <https://www.ecdc.europa.eu/en/publications-data/spatial-relationship-between-presence-and-absence-leishmania-spp>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Phlebotomus+tobbi&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/0b4a8151-b1f4-431a-b3f6-53ea219eb2c3>,
+        <https://openbiodiv.net/c85742ea-47c8-402b-862c-9b56b49c5867> .
+
+<https://w3id.org/climos/species/sandflies/s_dentata> rdfs:seeAlso <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Sergentomyia+dentata&items_per_page=50> ;
+    skos:exactMatch <https://openbiodiv.net/bed2ee54-a09f-4a16-81a0-e07b0fb33e29> .
+
+<https://w3id.org/climos/species/sandflies/s_minuta> rdfs:seeAlso <https://www.ecdc.europa.eu/en/disease-vectors/facts/phlebotomine-sand-flies>,
+        <https://www.ecdc.europa.eu/en/news-events/multilocus-molecular-and-phylogenetic-analysis-phlebotomine-sand-flies-diptera>,
+        <https://www.ecdc.europa.eu/en/publications-data/importance-vector-abundance-and-seasonality>,
+        <https://www.ecdc.europa.eu/en/publications-data/surveillance-prevention-control-leishmaniases-European-Union-and-neighbouring-countries>,
+        <https://www.ecdc.europa.eu/en/publications-data/tables-annexes-surveillance-prevention-control-leishmaniases-report>,
+        <https://www.ecdc.europa.eu/en/search?s=Sergentomyia+minuta&items_per_page=50>,
+        <https://www.ecdc.europa.eu/en/toscana-virus-infection> ;
+    skos:exactMatch <https://openbiodiv.net/173cf4ed-33db-4f9e-a26a-988b44ef0611>,
+        <https://openbiodiv.net/64fddf89-69c4-4c78-a18f-e0739193ac97>,
+        <https://openbiodiv.net/a6a38ce3-ddb1-4641-b3f6-b17b44810921> .
+
+
+[] ogc:targetGraph <https://w3id.org/climos/species-links> .

@@ -2,6 +2,10 @@ name: Push to RAINBOW
 
 on:
   workflow_dispatch:
+    inputs:
+      fileGlob:
+        type: string
+        description: Files to push (glob). Leave empty for everything.
 
 jobs:
   uplift:
@@ -22,5 +26,10 @@ jobs:
           DB_USERNAME: ${{ secrets.UPLOAD_GRAPH_STORE_USERNAME }}
           DB_PASSWORD: ${{ secrets.UPLOAD_GRAPH_STORE_PASSWORD }}
         run: |
-          python -m ogc.na.update_vocabs .ogc/catalog.ttl --batch  -w . \
+          if [ -n "${{ inputs.fileGlob }}" ]; then
+            WHAT="-m ${{ inputs.fileGlob }}"
+          else
+            WHAT="--batch"
+          fi
+          python -m ogc.na.update_vocabs .ogc/catalog.ttl ${WHAT}  -w . \
            --update --graph-store https://defs-hosted.opengis.net/fuseki-hosted/data
